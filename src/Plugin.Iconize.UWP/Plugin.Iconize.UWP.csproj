@@ -54,10 +54,10 @@
       <Version>5.3.3</Version>
     </PackageReference>
     <PackageReference Include="SkiaSharp">
-      <Version>1.58.0</Version>
+      <Version>1.59.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms">
-      <Version>2.3.5.253-pre5</Version>
+      <Version>2.3.5.256-pre6</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="..\Plugin.Iconize.Shared\Plugin.Iconize.Shared.projitems" Label="Shared" />

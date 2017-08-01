@@ -52,7 +52,11 @@
       <IsWatchApp>false</IsWatchApp>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BundleResource Include="..\iconize-fontawesome.ttf">
+      <Link>Resources\iconize-fontawesome.ttf</Link>
+    </BundleResource>
+  </ItemGroup>
   <Import Project="..\Plugin.Iconize.FontAwesome.Shared\Plugin.Iconize.FontAwesome.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

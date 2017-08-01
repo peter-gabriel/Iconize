@@ -52,6 +52,11 @@
       <IsWatchApp>false</IsWatchApp>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\iconize-ionicons.ttf">
+      <Link>Resources\iconize-ionicons.ttf</Link>
+    </BundleResource>
+  </ItemGroup>
   <Import Project="..\Plugin.Iconize.Ionicons.Shared\Plugin.Iconize.Ionicons.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

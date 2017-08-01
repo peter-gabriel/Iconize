@@ -52,6 +52,11 @@
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\iconize-meteocons.ttf">
+      <Link>Resources\iconize-meteocons.ttf</Link>
+    </BundleResource>
+  </ItemGroup>
   <Import Project="..\Plugin.Iconize.Meteocons.Shared\Plugin.Iconize.Meteocons.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

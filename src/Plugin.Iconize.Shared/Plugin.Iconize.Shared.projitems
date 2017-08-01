@@ -11,6 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Controls\IconButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\IconCarouselPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\IconFloatActionButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\IconImage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\IconLabel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\IconNavigationPage.cs" />

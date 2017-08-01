@@ -46,15 +46,15 @@
     <EmbeddedResource Include="Properties\Plugin.Iconize.EntypoPlus.UWP.rd.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\iconize-entypoplus.ttf">
+      <Link>iconize-entypoplus.ttf</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\..\..\Plugin.Iconize.UWP\Plugin.Iconize.UWP.csproj">
       <Project>{70ead9be-c324-4954-b3cc-8ccb81a636e6}</Project>
       <Name>Plugin.Iconize.UWP</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="..\iconize-entypoplus.ttf">
-      <Link>iconize-entypoplus.ttf</Link>
-    </Content>
   </ItemGroup>
   <Import Project="..\Plugin.Iconize.EntypoPlus.Shared\Plugin.Iconize.EntypoPlus.Shared.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

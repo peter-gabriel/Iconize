@@ -37,7 +37,9 @@
     <DocumentationFile>bin\Release\Plugin.Iconize.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Iconize.cs" />
     <Compile Include="Renderers\IconButtonRenderer.cs" />
+    <Compile Include="Renderers\IconFloatActionButtonRenderer.cs" />
     <Compile Include="Renderers\IconImageRenderer.cs" />
     <Compile Include="Renderers\IconLabelRenderer.cs" />
     <Compile Include="Renderers\IconNavigationRenderer.cs" />
@@ -53,7 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms">
-      <Version>2.3.5.253-pre5</Version>
+      <Version>2.3.5.256-pre6</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="..\Plugin.Iconize.Shared\Plugin.Iconize.Shared.projitems" Label="Shared" />

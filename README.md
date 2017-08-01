@@ -39,6 +39,7 @@ FYI, if there is a conflict, the first module declared with Iconize.With() has p
 * IconTabbedPage (TabbedPage)
 * IconToolbarItem (ToolbarItem)
   * Requires IconNavigationPage
+* IconFloatActionButton (FAB - iOS and Android)
 
 
 ## Setup
